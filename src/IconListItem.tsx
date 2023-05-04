@@ -11,7 +11,7 @@ interface IconPickerItemProps {
   containerStyles?: CSS.Properties
 }
 
-const IconPickerItem: React.SFC<IconPickerItemProps> = ({
+const IconPickerItem: React.FC<IconPickerItemProps> = ({
   icon,
   size,
   color,
